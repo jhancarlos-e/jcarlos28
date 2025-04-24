@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Licores Artesanales Tingo María</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+      color: #333;
+    }
+
+    header {
+      background-color: #6a0572;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #f67280;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h1, h2 {
+      color: #6a0572;
+    }
+
+    .productos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .producto {
+      background: #ffffffc7;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background-color: #355c7d;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+
+    button {
+      background-color: #6a0572;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background-color: #9a0572;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Licores Artesanales Tingo María</h1>
+    <p>Tradición, sabor y cultura desde la selva peruana 🍹🌿</p>
+  </header>
+
+  <nav>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#productos">Productos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="nosotros">
+    <h2>Sobre Nosotros</h2>
+    <p>Somos una tienda online de licores artesanales producidos en Tingo María, Huánuco. Nuestros productos están hechos con insumos locales como cacao, café y frutas exóticas, respetando las tradiciones de la Amazonía peruana.</p>
+  </section>
+
+  <section id="productos">
+    <h2>Nuestros Licores</h2>
+    <div class="productos">
+      <div class="producto">
+        <h3>Licor de Cacao</h3>
+        <p>Licor suave y dulce, perfecto para postres y sobremesas.</p>
+        <button>Comprar</button>
+      </div>
+      <div class="producto">
+        <h3>Licor de Café</h3>
+        <p>Hecho con café de altura de la región. Ideal para amantes del sabor intenso.</p>
+        <button>Comprar</button>
+      </div>
+      <div class="producto">
+        <h3>Licor Amazónico</h3>
+        <p>Una mezcla exótica de frutas selváticas, inspirado en leyendas locales.</p>
+        <button>Comprar</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contáctanos</h2>
+    <p>📧 Email: ventas@licorestingomaria.pe</p>
+    <p>📱 WhatsApp: +51 987 654 321</p>
+    <p>📍 Dirección: Tingo María, Huánuco - Perú</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Licores Artesanales Tingo María | Todos los derechos reservados
+  </footer>
+
+</body>
+</html>
