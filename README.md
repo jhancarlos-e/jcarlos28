@@ -1,1 +1,121 @@
-# jcarlos28
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reserva Nativa | Licores Artesanales de Tingo María</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #f5f2e7; /* beige claro */
+      color: #2e3d2f; /* verde bosque */
+    }
+    header {
+      background-color: #3b5e3f; /* verde selva */
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+    nav {
+      background-color: #6b8f71;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 15px;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #3b5e3f;
+    }
+    .producto {
+      background-color: #ffffff;
+      border-left: 6px solid #6b8f71;
+      margin-bottom: 20px;
+      padding: 15px;
+      border-radius: 8px;
+    }
+    footer {
+      background-color: #3b5e3f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .contacto {
+      background-color: #e4e0d0;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    .whatsapp {
+      color: #25D366;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Reserva Nativa</h1>
+    <p>Licores artesanales con el alma de la selva</p>
+  </header>
+
+  <nav>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#productos">Productos</a>
+    <a href="#contacto">Contáctanos</a>
+  </nav>
+
+  <section id="nosotros">
+    <h2>🌿 Sobre Nosotros</h2>
+    <p>
+      Desde el corazón de Tingo María, cuna de biodiversidad y cultura, nace <strong>Reserva Nativa</strong>, una marca que embotella la esencia de la Amazonía. Nuestros licores artesanales son elaborados con frutos y raíces tradicionales, siguiendo recetas ancestrales que honran la tierra y la tradición.
+    </p>
+  </section>
+
+  <section id="productos">
+    <h2>🍶 Nuestros Licores</h2>
+
+    <div class="producto">
+      <h3>Licor de Cacao</h3>
+      <p>Un sabor profundo y suave que rinde homenaje al grano sagrado del Amazonas. Ideal para compartir o disfrutar solo.</p>
+    </div>
+
+    <div class="producto">
+      <h3>Licor de Café</h3>
+      <p>Intenso y aromático, elaborado con café de altura. Una experiencia robusta que despierta los sentidos.</p>
+    </div>
+
+    <div class="producto">
+      <h3>Licor de Quito Quito</h3>
+      <p>Refrescante y exótico. El quito quito, fruta amazónica llena de sabor y vitamina C, convertida en un licor único.</p>
+    </div>
+
+    <div class="producto">
+      <h3>Licor de 7 Raíces</h3>
+      <p>Una poderosa mezcla de raíces medicinales de la selva. Tradicionalmente usado como revitalizante natural, ahora en versión artesanal y deliciosa.</p>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>📞 Contáctanos</h2>
+    <div class="contacto">
+      <p><strong>📍 Ubicación:</strong> Tingo María, Huánuco, Perú</p>
+      <p><strong>📱 Teléfono / WhatsApp:</strong> <a class="whatsapp" href="https://wa.me/51942373093" target="_blank">942 373 093</a></p>
+      <p>Escríbenos para hacer tu pedido o conocer más sobre nuestros productos artesanales. Enviamos a todo el Perú.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Reserva Nativa - Todos los derechos reservados</p>
+  </footer>
+
+</body>
+</html>
